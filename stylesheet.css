@@ -57,7 +57,7 @@ p {
 body {
 	background-image: url("images/bg.jpg");
 	border: 8px solid;
-	border-color: #CCC3E2 #4D3E72
+	border-color: #CCC3E2 #4D3E72;
 }
 ul {
     list-style-type: none;
@@ -85,4 +85,8 @@ li a {
 
 li a:hover {
     background-color: #715D7D;
+}
+img {
+	border: 5px solid;
+	border-color: #CCC3E2 #4D3E72
 }
