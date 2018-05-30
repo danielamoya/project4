@@ -1,0 +1,136 @@
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 2vh;
+}
+.headerbody {
+	background-color: #A5BDC3;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 4;
+}
+.circyleader {
+	background-color: #C3DBE2;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-row-start: 2;
+	grid-row-end: span 3;
+	grid-column-end: span 1;
+	text-align: justify;
+}
+.swirlsinfo {
+	background-color: #C3DBE2;
+	padding: 1em;
+	grid-column-start: 2;
+	grid-row-start: 2;
+	grid-row-end: span 3;
+	grid-column-end: span 2;
+	text-align:justify;
+}
+.circyswirls {
+	background-color: #A5BDC3;
+	padding: 1em;
+	grid-column-start: 4;
+	grid-row-start: 2;
+	grid-row-end: span 3;
+	grid-column-end: span 1;
+	text-align: justify;
+}
+.circyinfo {
+	background-color: #C3DBE2;
+	padding: 1em;
+	grid-column-start: 2;
+	grid-column-end: span 2;
+	grid-row-start:5;
+	grid-row-end: span 1;
+}
+.circy {
+	background-color: #C3DBE2;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+}
+.duke {
+	background-color: #C3DBE2;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+}
+.dukeinfo {
+	background-color: #C3DBE2;
+	padding: 1em;
+	grid-column-start: 2;
+	grid-column-end: span 2;
+	grid-row-start:6;
+	grid-row-end: span 1;
+}
+.baby {
+	background-color: #C3DBE2;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+}
+.babyinfo {
+	background-color: #C3DBE2;
+	padding: 1em;
+	grid-column-start: 2;
+	grid-column-end: span 2;
+	grid-row-start: 7;
+	grid-row-end: span 1;
+}
+.sidenote {
+	background-color: #A5BDC3;
+	padding: 1em;
+	text-align: center;
+	grid-column-start: 1;
+	grid-row-end: span 8;
+	grid-column-end: span 4;
+}
+.facts {
+	background-color: #A5BDC3;
+	padding: 1em;
+	grid-column-start: 4;
+	grid-column-end: span 1;
+	grid-row-start: 5;
+	grid-row-end: span 3;
+}
+p {
+	font-family: "Calibri";
+	font-size: 10px;
+}
+body {
+	background-image: url("images/circybg2.jpg");
+	border: 8px solid;
+	border-color: #AFC297 5D6D4A;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #AFC691;
+	
+}
+
+li {
+	display: center;
+    float: left;
+	border-right: 5px solid;
+	border-color: #9B9B65
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #8FA86E;
+}
+img {
+	border: 5px solid;
+	border-color: #AFC297 5D6D4A;
+}

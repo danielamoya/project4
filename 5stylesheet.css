@@ -1,0 +1,51 @@
+.grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 2vh;
+}
+.headerbody {
+	background-color: #9C6868;
+	padding: 1em;
+	grid-column-start: 1;
+	grid-column-end: span 4;
+}
+p {
+	font-family: "Calibri";
+	font-size: 10px;
+}
+body {
+	background-image: url("images/bg.jpg");
+	border: 8px solid;
+	border-color: #CCC3E2 #4D3E72;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #BEAACA;
+	
+}
+
+li {
+	display: center;
+    float: left;
+	border-right: 5px solid;
+	border-color: #563627;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #715D7D;
+}
+img {
+	border: 5px solid;
+	border-color: #CCC3E2 #4D3E72
+}
